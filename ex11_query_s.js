@@ -1,9 +1,9 @@
 const MongoClient = require('mongodb').MongoClient;
 const url = "mongodb://localhost:27017/mydb";
-MongoClient.connect(url, function (err, db) {
+MongoClient.connect(url, (err, db) => {
     if (err) throw err;
     let query = { address: /^S/ };
-    db.collection("customers").find(query).toArray(function (err, result) {
+    db.collection("customers").find(query).toArray((err, result) => {
         if (err) throw err;
         console.log(result);
         db.close();

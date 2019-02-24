@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
 const url = "mongodb://127.0.0.1:27017/mydb";
-MongoClient.connect(url, function (err, db) {
+MongoClient.connect(url, (err, db) => {
     if (err) throw err;
     db.collection('orders').aggregate([
         {
@@ -12,7 +12,7 @@ MongoClient.connect(url, function (err, db) {
                 as: 'orderdetails'
             }
         }
-    ], function (err, res) {
+    ], (err, res) => {
         if (err) throw err;
         console.log(JSON.stringify(res));
         db.close();
