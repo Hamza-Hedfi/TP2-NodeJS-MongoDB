@@ -1,5 +1,5 @@
 # Description
-This repo contains code for the 2nd lab of our course WebMobile.
+This repo contains code for the 2nd lab of our in campus lecture **WebMobile**.
 
 Reference document can be found [here](https://docs.google.com/viewer?a=v&pid=forums&srcid=MTM5ODEwMTIzODk1MDkzMTkyNDMBMTQ5NTg3NDYxNzYwODEzMTMyNjkBX2pMbktoV2RGd0FKATAuMQEBdjI&authuser=0).
 
