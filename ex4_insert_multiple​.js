@@ -2,7 +2,7 @@ const MongoClient = require('mongodb').MongoClient;
 const url = "mongodb://localhost:27017/mydb";
 MongoClient.connect(url, function (err, db) {
     if (err) throw err;
-    var myobj = [
+    let myobj = [
         { name: 'John', address: 'Highway 71' },
         { name: 'Peter', address: 'Lowstreet 4' },
         { name: 'Amy', address: 'Apple st 652' },
