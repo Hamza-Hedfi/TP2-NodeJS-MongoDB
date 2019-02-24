@@ -14,7 +14,7 @@ You can follow along with the provided document.
 
 Just test it : 
 - Clone the repo `git clone https://github.com/Hamza-Hedfi/TP2-NodeJS-MongoDB.git`
-- Navigate (**c**hange **d**irectory) to the cloned folder `cd Socket-Chat-Example`
+- Navigate (**c**hange **d**irectory) to the cloned folder `cd TP2-NodeJS-MongoDB`
 - `npm install` to install the project dependencies.
 - Then for each file to test it's code execute `node __fileName__`
 - Output will be present in the terminal.
