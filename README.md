@@ -13,7 +13,7 @@ You can follow along with the provided document.
 **OR**
 
 Just test it : 
-- Clone the repo `git clone https://github.com/Hamza-Hedfi/Socket-Chat-Example.git`
+- Clone the repo `git clone https://github.com/Hamza-Hedfi/TP2-NodeJS-MongoDB.git`
 - Navigate (**c**hange **d**irectory) to the cloned folder `cd Socket-Chat-Example`
 - `npm install` to install the project dependencies.
 - Then for each file to test it's code execute `node __fileName__`
